@@ -11,13 +11,18 @@ return {
   },
   {
     "folke/tokyonight.nvim",
-    priority = 997,
+    priority = 998,
     opts = {},
+  },
+  {
+    "rose-pine/neovim",
+    name = "rose-pine",
+    priority = 997,
   },
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "tokyonight",
+      colorscheme = "rose-pine-moon",
     },
   },
 }
